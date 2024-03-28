@@ -1,5 +1,7 @@
 # PII-Suite 
-PII-Suite contains 2 programs with simple TKinter based GUIs to be used by Texas A&M University's CSCE department for FERPA compliance and enhanced plagiarism detection. The two programs are to be used on submissions from GradeScope in preparation for a scan by plagiarism detection software such as Harvard's Compare50, which utilizes the [Winnowing algorithm](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://theory.stanford.edu/~aiken/publications/papers/sigmod03.pdf)
+PII-Suite contains 2 programs with simple TKinter based GUIs to be used by Texas A&M University's CSCE department for FERPA compliance and enhanced plagiarism detection. The two programs are to be used on submissions from GradeScope in preparation for a scan by plagiarism detection software such as Harvard's Compare50, which utilizes the [Winnowing algorithm](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://theory.stanford.edu/~aiken/publications/papers/sigmod03.pdf) \
+
+Thus far, PII-Suite has been used to process tens of thousands of student submissions, leading to higher plagiarism detection rates.
 
 ## Linker
 Processes raw GradeScope submissions in preparation for C50 to eliminate duplicate matches & ensure FERPA compliance.
@@ -19,9 +21,12 @@ Run the following ``pip`` command to install all necessary depenencies
 ```shell
 pip install pandas ttkthemes tk compare50
 ```
-## Notes
+## Dev Notes
 - For any questions, please contact me directly
 - If you'd like to contribute by adding features and/or fixing any bugs, I'd greatly appreciate it.
+- I'm aware some of the code in either programs is...*sloppy*...I plan on rewriting most of it, however for now it's fully functional
+
+## Issues & Upcoming Changes
 - PII-Suite was designed using Windows 11, though will launch on any platform supported by TKinter
   - PIILinker currently contains fatal bug on MacOS; likely due to a failure to ignore ``.DS_Store`` files.
   - PIILinker currently contains a nuisance bug causing FERPA-mode to always be enabled regardless of the checkbox; for a majority of use cases this is not an issue
