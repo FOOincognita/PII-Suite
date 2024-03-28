@@ -1,5 +1,5 @@
 # PII-Suite 
-PII-Suite contains 2 programs with simple TKinter based GUIs to be used by Texas A&M University's CSCE department for FERPA compliance and enhanced plagiarism detection. The two programs are to be used on submissions from GradeScope in preparation for a scan by plagiarism detection software such as Harvard's Compare50, which utilizes the [Winnowing algorithm](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://theory.stanford.edu/~aiken/publications/papers/sigmod03.pdf) \
+PII-Suite contains 2 programs with simple TKinter based GUIs to be used by Texas A&M University's CSCE department for FERPA compliance and enhanced plagiarism detection. The two programs are to be used on submissions from GradeScope in preparation for a scan by plagiarism detection software such as Harvard's Compare50, which utilizes the [Winnowing algorithm](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://theory.stanford.edu/~aiken/publications/papers/sigmod03.pdf) 
 
 Thus far, PII-Suite has been used to process tens of thousands of student submissions, leading to higher plagiarism detection rates.
 
